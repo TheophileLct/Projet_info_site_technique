@@ -1,4 +1,4 @@
-/* --------------------------------------------------------------------------------------
+ /* --------------------------------------------------------------------------------------
 HOME PAGE  
 --------------------------------------------------------------------------------------*/
 .home-body{
@@ -18,8 +18,8 @@ a {
 }
 
 .box{
-  background-color: #F4F3F2;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color:  #F4F3F2;
+  box-shadow: 0 4px 8px 0 rgba(165, 164, 164, 0.473), 0 6px 20px 0 rgba(165, 164, 164, 0.473);
   min-width: 450px;
   width: auto-fit;
   margin: 5px;
@@ -38,8 +38,9 @@ Wall box
 
 .wall-icon img{
   margin-top: 5px;
-  width: 50%;
+  width: 20%;
 }
+
 .wall-info{
   display: flex;
   flex-direction: row;
@@ -51,66 +52,71 @@ Wall box
   text-decoration:none;
   color:#629460;
 }
+
 .wall-box a:hover {
   text-decoration:none;
   color:#393E41;
 }
 
-
 /* -------------------------------------------
-News box  
+Wall box2  
 -------------------------------------------*/
-.news-box{
+.wall-box2{
+  justify-self: middle;
+  align-self: flex-start;
+  text-align: center;
+  min-width: 300px;
+}
+
+.wall-icon img{
+  margin-top: 5px;
+  width: 20%;
+}
+.wall-info{
   display: flex;
-  flex-direction: column ;
+  flex-direction: row;
   align-items: center;
-  text-align: center;
-  color: #629460;
+  flex-flow: row wrap;
 }
 
-.news-image img{
-  display: block;
-  width: 100%;
+.wall-box2 a{
+  text-decoration:none;
+  color:#629460;
 }
 
-
-/* -------------------------------------------
-Countdown box  
--------------------------------------------*/
-.countdown-box{
-  padding: 2%;
-  justify-self: center;
-  text-align: center;
-  align-self: flex-start;
-  border-width: 4px;
-}
-
-.countdown-text{
-  overflow-wrap: normal;
-  align-content: center;
-  padding: 5px;
-  border-radius : 10px;
-  font-size: 2em;
-  text-transform: uppercase;
-  color: #629460;
+.wall-box2 a:hover {
+  text-decoration:none;
+  color:#393E41;
 }
 
 /* -------------------------------------------
-Social Networks box  
--------------------------------------------*/
-.socialnetworks-box{
-  justify-self: center;
+Wall box3  
+------------------------------------------- */
+.wall-box3{
+  justify-self: left ;
   align-self: flex-start;
   text-align: center;
+  min-width: 300px
 }
 
-.snapwidget-widget{
-  vertical-align: middle;
-  width: 100%;
-  border:none;
+.wall-icon img{
+  margin-top: 5px;
+  width: 20%;
 }
 
+.wall-info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
-img{
-  max-width: 450px;
+.wall-box3 a {
+  text-decoration:none;
+  color:#629460;
+}
+
+.wall-box3 a:hover {
+  text-decoration:none;
+  color:#393E41;
 }
