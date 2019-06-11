@@ -58,18 +58,18 @@ body {
 .navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #ffffff;
   text-align: center;
   padding: 8px 10px;
   text-decoration: none;
 }
 .navbar a:hover {
   background-color: #EFEDEC;
-  color: #629460;
+  color: #ff0000;
 }
 .navbar a.active {
-  background-color: rgb(100, 185, 79);
-  color: white;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
 }
 
 .navbar .icon {
