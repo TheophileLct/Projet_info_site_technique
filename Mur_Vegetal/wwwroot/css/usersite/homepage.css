@@ -25,14 +25,13 @@ head  {
 HOME PAGE  
 --------------------------------------------------------------------------------------*/
 .home-body{
-  width: 100%;
+  width: auto;
   height: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, auto));
-  grid-gap: 50px 100px;
+  grid-gap: 5px 10px;
   grid-auto-flow: row;
   padding: 10px;
-  overflow: inherit;
+  grid-template-columns: auto auto auto auto auto auto;
 }
 
 a {
@@ -43,10 +42,11 @@ a {
 .box{
   background-color: #F4F3F2;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  min-width: 450px;
+  min-width: 50px;
   width: auto-fit;
   margin: 5px;
   font-size: 1.25em;
+  max-width: 150px;
 }
 
 .home-titre{
