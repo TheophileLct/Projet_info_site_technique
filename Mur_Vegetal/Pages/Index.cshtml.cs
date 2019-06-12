@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Mur_Vegetal.Pages
 {
-    public class WallModel : PageModel
+    public class IndexModel : PageModel
     {
         public void OnGet()
         {
