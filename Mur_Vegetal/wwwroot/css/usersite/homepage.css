@@ -1,122 +1,22 @@
  /* --------------------------------------------------------------------------------------
 HOME PAGE  
 --------------------------------------------------------------------------------------*/
-.home-body{
-  width: 100%;
-  height: auto;
+head  {
+   text-align: center;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, auto));
-  grid-gap: 50px 100px;
-  grid-auto-flow: row;
-  padding: 10px;
-  overflow: inherit;
-}
-
-a {
-  text-decoration:none;
-  color:inherit;
-}
-
-.box{
-  background-color:  #F4F3F2;
-  box-shadow: 0 4px 8px 0 rgba(165, 164, 164, 0.473), 0 6px 20px 0 rgba(165, 164, 164, 0.473);
-  min-width: 450px;
-  width: auto-fit;
-  margin: 5px;
-  font-size: 1.25em;
-}
-
-/* -------------------------------------------
-Wall box  
--------------------------------------------*/
-.wall-box{
-  justify-self: center;
-  align-self: flex-start;
-  text-align: center;
-  min-width: 300px;
-}
-
-.wall-icon img{
-  margin-top: 5px;
-  width: 20%;
-}
-
-.wall-info{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.wall-box a {
-  text-decoration:none;
-  color:#629460;
-}
-
-.wall-box a:hover {
-  text-decoration:none;
-  color:#393E41;
-}
-
-/* -------------------------------------------
-Wall box2  
--------------------------------------------*/
-.wall-box2{
-  justify-self: middle;
-  align-self: flex-start;
-  text-align: center;
-  min-width: 300px;
-}
-
-.wall-icon img{
-  margin-top: 5px;
-  width: 20%;
-}
-.wall-info{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.wall-box2 a{
-  text-decoration:none;
-  color:#629460;
-}
-
-.wall-box2 a:hover {
-  text-decoration:none;
-  color:#393E41;
-}
-
-/* -------------------------------------------
-Wall box3  
-------------------------------------------- */
-.wall-box3{
-  justify-self: left ;
-  align-self: flex-start;
-  text-align: center;
-  min-width: 300px
-}
-
-.wall-icon img{
-  margin-top: 5px;
-  width: 20%;
-}
-
-.wall-info{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.wall-box3 a {
-  text-decoration:none;
-  color:#629460;
-}
-
-.wall-box3 a:hover {
-  text-decoration:none;
-  color:#393E41;
+  grid-gap: 5px 5px;
+  grid-template-columns: auto auto auto ;
+  background-color: rgb(0, 0, 0);
+  padding: 5px;
 }
