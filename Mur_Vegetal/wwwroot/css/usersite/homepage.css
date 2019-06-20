@@ -22,27 +22,34 @@ HOME PAGE
 HOME PAGE  
 --------------------------------------------------------------------------------------*/
 .home-body{
-  width: auto;
+  width: 100%;
   height: auto;
-  display: grid;
   grid-gap: 5px 10px;
   grid-auto-flow: row;
   padding: 10px;
   grid-template-columns: auto auto auto auto auto auto;
+  display: flex;  
+  flex-flow: row wrap;
+
+  text-align: center;
 }
 
-a {
+.blanc{
   text-decoration:none;
   color:inherit;
+  width : 100%;
 }
 
 .box{
-  min-width: 300px;
-  border-radius: 10px;
-  margin: 5px;
-  display: flex;
-  flex-direction: column ;
+  
+  padding: 10px;
+  width: 30%;
+  height: 30%px;
+  margin-top: 10px;
+  
+  line-height: 150px;
   text-align: center;
+ 
 }
 
 .home-titre{
@@ -51,4 +58,25 @@ a {
   font-size: 6vw;
   color: #629460;
   padding: 20px;
+  
+  
+}
+
+.home-full{
+  display: block;
+}
+
+.box-body{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
 }
